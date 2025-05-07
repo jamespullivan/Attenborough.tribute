@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Attenborough Tribute</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+  <!-- Hero Section -->
+  <section class="relative h-screen bg-cover bg-center" style="background-image: url('https://example.com/attenborough-hero.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-center px-4">
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Celebrate the Legacy of David Attenborough</h1>
+      <p class="text-xl text-gray-300 max-w-2xl mb-6">A limited-time tribute store featuring puzzles, eco-merch, and more. All profits go to wildlife conservation.</p>
+      <a href="#products" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg">Explore Products</a>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="py-12 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-4">Why We Built This</h2>
+    <p class="text-lg max-w-3xl mx-auto mb-6">This project is a short-term tribute to one of the greatest nature storytellers of all time. We’ve created limited edition items celebrating his life, with all profits donated to conservation causes he championed.</p>
+    <div class="flex justify-center space-x-6">
+      <div class="text-left max-w-xs">
+        <h3 class="text-xl font-semibold">🌿 Eco-Friendly Products</h3>
+        <p>All items are made with sustainability in mind.</p>
+      </div>
+      <div class="text-left max-w-xs">
+        <h3 class="text-xl font-semibold">🧩 Puzzles with Purpose</h3>
+        <p>Beautiful, mindful designs paired with wildlife soundscapes.</p>
+      </div>
+      <div class="text-left max-w-xs">
+        <h3 class="text-xl font-semibold">🦁 Wildlife Conservation</h3>
+        <p>Proceeds go to vetted nature protection charities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Grid Section -->
+  <section id="products" class="py-12 bg-gray-100">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold">Our Tribute Collection</h2>
+      <p class="text-lg">Each item is designed to honour David’s legacy and protect the natural world.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 max-w-6xl mx-auto">
+
+      <!-- Example Product Card -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <img src="https://example.com/puzzle.jpg" alt="Puzzle" class="rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">500-piece Tribute Puzzle</h3>
+        <p class="text-gray-600 mb-4">Featuring a montage of iconic wildlife scenes narrated by David Attenborough. QR code for soundscape included.</p>
+        <p class="font-bold text-green-600 text-lg mb-2">£18.00</p>
+        <button class="w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded">Add to Cart</button>
+      </div>
+
+      <!-- More product cards would be added here -->
+
+    </div>
+  </section>
+
+</body>
+</html>
